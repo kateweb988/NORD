@@ -1,0 +1,847 @@
+input::-webkit-input-placeholder 
+   color: rgba(250, 250, 255, 0.6) !important
+input::-moz-placeholder
+   color: rgba(250, 250, 255, 0.6) !important
+input:-ms-input-placeholder 
+   color: rgba(250, 250, 255, 0.6) !important
+input:-moz-placeholder 
+   color: rgba(250, 250, 255, 0.6) !important
+.menu-btn, .menu
+   display: none
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after, .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after
+   display: none
+.mob 
+   display: none
+.nav 
+   padding: 21px 0
+   &__box 
+      align-items: center
+      justify-content: space-between
+   &__logo 
+      display: flex
+      align-items: center
+      justify-content: center
+      img 
+         object-fit: contain 
+         width: 100%
+         height: 100%
+   &__list 
+      display: flex
+      flex-wrap: wrap 
+      justify-content: flex-start
+      li 
+         margin-right: 50px
+         &:last-child
+            margin-right: 0
+         a 
+            color: rgb(155, 161, 168)
+         &:hover 
+            a 
+               color: rgb(4, 19, 37)
+   &__info 
+      align-items: center
+   &__tel 
+      display: flex
+      align-items: center
+      justify-content: center
+      margin-right: 10px
+      border: 1px solid rgb(80, 90, 103)
+      border-radius: 8px
+      width: 40px
+      height: 40px
+      p 
+         display: none
+         transition: 0.5s 
+         color: rgb(80, 90, 103)
+         font-size: 14px
+         font-weight: 400
+         line-height: 120%
+      &:hover 
+         border: 1px solid $or
+         p 
+            color: $or
+         .svg 
+            path 
+               fill: $or
+   &__mail 
+      display: flex
+      align-items: center
+      justify-content: center
+      margin-right: 20px
+      width: 211px
+      height: 40px
+      border: 1px solid rgb(80, 90, 103)
+      border-radius: 8px
+      p 
+         transition: 0.5s 
+         color: rgb(80, 90, 103)
+         font-size: 14px
+         font-weight: 400
+         line-height: 120%
+         margin-left: 4px
+      &:hover 
+         border: 1px solid $or
+         .svg 
+            path 
+               fill: $or
+         p 
+            color: $or
+   &__btn 
+      border: 1px solid rgb(255, 106, 42)
+      height: 40px
+      color: rgb(255, 106, 42)
+      background: rgb(255, 241, 234)
+.header 
+   padding-bottom: 70px
+   &__wrap 
+      position: relative
+      padding: 45px 50px 
+      border-radius: 40px
+      background: rgb(242, 245, 248)
+      margin-top: 8px
+   &__sub 
+      display: flex
+      align-items: center
+      justify-content: center
+      margin-bottom: 10px
+      width: 231px
+      height: 40px
+      border: 1px solid rgb(255, 106, 42)
+      border-radius: 8px
+      color: rgb(255, 106, 42)
+      font-size: 18px
+      font-weight: 400
+      line-height: 120%
+      padding-bottom: 2px
+   &__pic 
+      position: absolute
+      right: 0
+      bottom: 0
+      object-fit: contain
+      width: 100%
+      max-width: 57.1%
+      z-index: 0
+   &__content 
+      width: 100%
+      position: relative
+      z-index: 2
+      max-width: 45%
+      h1 
+         margin-bottom: 30px
+   &__info
+      width: 100%
+      max-width: 96.58% 
+      margin-bottom: 30px
+   &__item 
+      width: 100%
+      overflow: hidden
+      align-items: flex-start
+      justify-content: flex-start
+      border-radius: 8px
+      backdrop-filter: blur(20px)
+      background: rgb(255, 255, 255)
+      padding: 16px
+      margin-bottom: 10px
+      &:last-child
+         margin-bottom: 0
+      img 
+         position: relative
+         top: 1px
+         margin-right: 10px
+      div 
+         span 
+            display: block
+            color: rgb(4, 19, 37)
+            font-size: 18px
+            font-weight: 600
+            line-height: 120%
+            margin-bottom: 5px
+         p 
+            color: rgb(80, 90, 103)
+            font-size: 18px
+            font-weight: 400
+            line-height: 130%
+   &__area 
+      display: flex
+      align-items: center
+   &__link 
+      display: block
+      width: max-content 
+      margin-left: 20px
+      color: rgb(4, 19, 37)
+      font-size: 18px
+      font-weight: 500
+      padding-bottom: 2px
+      line-height: 120%
+      border-bottom: 1px solid rgb(4, 19, 37)
+      &:hover 
+         color: $or
+         border-bottom: 1px solid $or
+   &__btn 
+      height: 40px
+.wrap 
+   position: relative
+.main 
+   padding: 70px 0 
+   h2 
+      margin-bottom: 80px
+   &__row 
+      display: flex
+      justify-content: space-between
+      margin-bottom: 140px
+   &__item 
+      overflow: hidden
+      position: relative
+      padding: 30px
+      height: 240px
+      border-radius: 20px
+      background: rgb(242, 245, 248)
+      width: 24%
+      span 
+         display: block
+         margin-bottom: 10px
+         color: rgb(4, 19, 37)
+         font-size: 28px
+         font-weight: 500
+         line-height: 120%
+      p 
+         color: rgb(4, 19, 37)
+         font-size: 18px
+         font-weight: 400
+         line-height: 130%
+         width: 100%
+         max-width: 255px
+         position: relative
+         z-index: 2
+      img 
+         position: absolute
+         bottom: 0
+         right: 0
+         z-index: 0
+   .sub 
+      top: 40px
+      left: 20%
+      margin-left: -164px
+      transform: rotate(-10deg)
+      &:after 
+         content: ""
+         display: block
+         background: url(/img/fig1.svg) no-repeat center center
+         width: 333.43px
+         height: 60px
+         position: absolute
+         bottom: -54px
+         right: -285px
+         background-size: 100% !important
+         transform: rotate(9deg)
+   &__content 
+      position: relative
+      width: 100%
+      max-width: 50%
+      h3 
+         margin-bottom: 40px
+      .sub 
+         left: initial
+         right: 16%
+         top: -88px
+         margin-left: 0
+         margin-right: -25px
+         transform: rotate(5deg)
+         &:after 
+            background: url(/img/fig2.svg) no-repeat center center
+            width: 240px
+            bottom: -50px
+            right: 18px
+            transform: rotate(-5deg)
+   &__bottom 
+      position: relative
+      h3 
+         text-align: center
+         margin-bottom: 40px
+      .sub 
+         top: -97px
+         left: 20%
+         margin-left: 184px
+         transform: rotate(-8deg)
+         &:after 
+            background: url(/img/fig3.svg) no-repeat center center
+            content: ""
+            width: 232.5px
+            bottom: -57px
+            right: -20px
+            transform: rotate(9deg)
+   &__flex 
+      display: flex
+      justify-content: space-between
+   &__left 
+      width: 100%
+      max-width: 49.5%
+      .main__right
+         display: none
+      div 
+         padding: 25px 30px 36px 27px
+         border: 4px solid rgb(242, 245, 248)
+         border-radius: 30px 30px 0 0
+         margin-top: -22px
+         background: white
+         &:first-child
+            margin-top: 0
+         &:last-child
+            padding-bottom: 30px
+            border-radius: 30px
+         p 
+            color: rgb(4, 19, 37)
+            font-size: 28px
+            font-weight: 500
+            transition: 0.5s
+            cursor: pointer
+            width: max-content
+            line-height: 120%
+            &:hover 
+               color: $or
+         ul 
+            width: 100%
+            max-width: 100%
+            display: none
+            margin-top: 20px
+            li 
+               display: flex
+               align-items: flex-start
+               color: rgb(4, 19, 37)
+               font-size: 18px
+               font-weight: 400
+               line-height: 130%
+               margin-bottom: 9px
+               &:before 
+                  content: ""
+                  background: url(/img/li.svg) no-repeat center center
+                  display: block
+                  width: 20px
+                  height: 20px
+                  margin-right: 10px
+                  flex: 1 0 auto 
+                  max-width: 20px
+               &:last-child
+                  margin-bottom: 0
+   &__right
+      width: 100%
+      max-width: 49.5%
+      padding-top: 40px
+      position: relative
+      border-radius: 30px
+      background: rgb(242, 245, 248)
+      img 
+         height: 100%
+         object-fit: contain
+         width: 100%
+   &__box 
+      display: flex
+      align-items: flex-end
+      justify-content: space-between
+      margin-bottom: 138px
+      img 
+         margin-left: 148px
+   &__el 
+      padding: 20px 0
+      display: flex
+      justify-content: space-between
+      align-items: flex-start
+      border-bottom: 1px solid rgb(230, 232, 234)
+      &:first-child
+         border-top: 1px solid rgb(230, 232, 234)
+      p 
+         color: rgb(4, 19, 37)
+         font-size: 28px
+         font-weight: 500
+         line-height: 120%
+      ul 
+         width: 100%
+         max-width: 44.2%
+         li 
+            display: flex
+            align-items: flex-start
+            color: rgb(4, 19, 37)
+            font-size: 18px
+            font-weight: 400
+            line-height: 130%
+            margin-bottom: 9px
+            &:before 
+               content: ""
+               background: url(/img/li.svg) no-repeat center center
+               display: block
+               width: 20px
+               height: 20px
+               margin-right: 10px
+               flex: 1 0 auto 
+               max-width: 20px
+            &:last-child
+               margin-bottom: 0
+.info
+   padding: 64px 0
+   h3 
+      text-align: center
+      margin-bottom: 32px
+   &__row 
+      display: flex
+      flex-wrap: wrap 
+      justify-content: center
+   &__item 
+      padding: 30px
+      overflow: hidden
+      border-radius: 20px
+      margin: 10px
+      background: rgb(242, 245, 248) 
+      width: max-content
+      display: flex
+      align-items: center
+      justify-content: center
+      height: 120px
+      img 
+         object-fit: contain 
+         max-width: 100% 
+         max-height: 100%
+         height: 100%
+.order 
+   padding: 70px 0
+   h3 
+      text-align: center
+      margin-bottom: 10px
+   &__sub 
+      margin-bottom: 30px
+      color: rgb(4, 19, 37)
+      font-size: 18px
+      font-weight: 400
+      line-height: 130%
+      text-align: center
+   &__btn 
+      padding: 0 40px 3px
+      margin: 0 auto 32px 
+   &__pic 
+      display: block
+      text-align: center
+      margin: 0 auto 
+   &__wrap 
+      position: relative
+      padding: 44px 50px 40px
+      border-radius: 40px
+      background: rgb(242, 245, 248)
+      h3 
+         margin-bottom: 40px
+   &__row 
+      display: flex
+      justify-content: space-between
+      margin-bottom: 40px
+   &__el 
+      padding: 30px
+      border-radius: 20px
+      background: rgb(255, 255, 255)
+      width: 32.5%
+      display: flex
+      align-items: center
+      justify-content: flex-start
+      p 
+         margin-left: 20px
+         color: rgb(4, 19, 37)
+         font-size: 24px
+         font-weight: 500
+         line-height: 120%
+   &__flex 
+      display: flex
+      justify-content: flex-start
+      flex-wrap: wrap 
+   &__item 
+      border-radius: 20px
+      background: rgb(255, 255, 255)
+      margin-bottom: 10px
+      padding: 27px
+      color: rgb(4, 19, 37)
+      font-size: 18px
+      font-weight: 600
+      line-height: 120%
+      width: 24.52%
+      margin-right: 10px
+      &:nth-child(4n)
+         margin-right: 0
+   .sub 
+      top: -32px
+      right: 50%
+      margin-right: -384px
+      transform: rotate(5deg)
+      &:after 
+         content: ""
+         display: block
+         background: url(/img/fig4.svg) no-repeat center center
+         width: 288.5px
+         height: 52px
+         position: absolute
+         bottom: -55px
+         right: 9px
+         background-size: 100% !important
+         transform: rotate(-5deg)
+.van 
+   padding: 70px 0 
+   .main__row
+      margin-bottom: 0
+   .main__item
+      width: 32.56%
+      p 
+         max-width: 400px
+   h3 
+      margin-bottom: 40px
+      text-align: center
+   .sub 
+      top: -64px
+      left: 20%
+      margin-left: 134px
+      transform: rotate(-8deg)
+      &:after 
+         background: url(/img/fig3.svg) no-repeat center center
+         content: ""
+         width: 232.5px
+         display: block
+         bottom: -57px
+         right: 9px
+         position: absolute
+         height: 60px
+         background-size: 100% !important
+         transform: rotate(9deg)
+.our 
+   padding: 70px 0 
+   .sub 
+      top: -64px
+      left: 20%
+      margin-left: 30px
+      transform: rotate(-2deg)
+      &:after 
+         background: url(/img/fig5.svg) no-repeat center center
+         width: 384px
+         bottom: -45px
+         right: -155px
+         height: 29px
+         transform: rotate(3deg)
+   &__box 
+      justify-content: space-between
+      align-items: flex-start
+      display: flex
+      &_2 
+         .our__content 
+            display: flex
+            max-width: 100%
+            justify-content: space-between
+         .our__item 
+            background: rgb(255, 241, 234)
+            width: 49.5%
+            border: none
+   &__content 
+      width: 100%
+      max-width: 50%
+   &__area 
+      margin-top: 29px
+      h3 
+         margin-bottom: 20px
+   &__item 
+      width: 100%
+      padding: 26px 30px 27px 26px
+      border: 4px solid #F2F5F8
+      border-radius: 30px
+      margin-bottom: 10px
+      p 
+         color: rgb(4, 19, 37)
+         font-size: 28px
+         font-weight: 500
+         line-height: 120%
+         margin-bottom: 20px
+      ul 
+         width: 100%
+         li 
+            display: flex
+            align-items: flex-start
+            color: rgb(4, 19, 37)
+            font-size: 18px
+            font-weight: 400
+            line-height: 130%
+            margin-bottom: 9px
+            &:before 
+               content: ""
+               background: url(/img/li.svg) no-repeat center center
+               display: block
+               width: 20px
+               height: 20px
+               margin-right: 10px
+               flex: 1 0 auto 
+               max-width: 20px
+            &:last-child
+               margin-bottom: 0
+.crm 
+   padding: 58px 0
+   &__wrap 
+      overflow: hidden
+      padding: 50px
+      border-radius: 40px
+      background: rgb(242, 245, 248)
+      h3 
+         text-align: center
+         margin-bottom: 40px
+   &__box 
+      display: flex
+      justify-content: space-between
+      align-items: flex-start
+      padding-left: 173px
+   &__content 
+      width: 100%
+      max-width: 54.54%
+   &__item 
+      width: 100%
+      margin-bottom: 19px
+      border-radius: 20px
+      background: rgb(255, 255, 255)
+      padding: 26px 30px 27px 27px
+      p 
+         color: rgb(4, 19, 37)
+         font-size: 18px
+         font-weight: 600
+         line-height: 120%
+      h4 
+         font-size: 24px
+         font-weight: 500
+         line-height: 120%
+         text-align: left
+         margin-bottom: 20px
+      ul 
+         width: 100%
+         li 
+            display: flex
+            align-items: flex-start
+            color: rgb(4, 19, 37)
+            font-size: 18px
+            font-weight: 400
+            line-height: 130%
+            margin-bottom: 9px
+            &:before 
+               content: ""
+               background: url(/img/li.svg) no-repeat center center
+               display: block
+               width: 20px
+               height: 20px
+               margin-right: 10px
+               flex: 1 0 auto 
+               max-width: 20px
+            &:last-child
+               margin-bottom: 0
+      &_last
+         padding: 30px 28px
+   &__btn 
+      margin-top: 20px
+      height: 40px
+      padding-bottom: 4.5px
+.stage 
+   padding: 70px 0 
+   h3 
+      margin-bottom: 28px
+      text-align: center
+   &__row 
+      display: flex
+      justify-content: center
+      flex-wrap: wrap 
+   &__item
+      padding: 30px
+      margin: 8px
+      width: 30.65%
+      border: 4px solid rgb(242, 245, 248)
+      border-radius: 20px
+      background: rgb(255, 255, 255)
+      position: relative
+      span 
+         z-index: 0
+         position: absolute
+         bottom: 0
+         right: 0
+         color: rgb(219, 233, 248)
+         font-size: 110px
+         font-weight: 800
+         line-height: 100%
+      h4 
+         text-align: left
+         color: rgb(4, 19, 37)
+         font-size: 28px
+         font-weight: 500
+         line-height: 120%
+         margin-bottom: 10px
+      p 
+         width: 100%
+         max-width: 366px
+         position: relative
+         z-index: 2 
+.tarrifs 
+   padding: 61px 0 
+   h3 
+      text-align: center
+      margin-bottom: 40px
+   .sub 
+      top: -25px
+      left: 53%
+      margin-left: 34px
+      transform: rotate(-2deg)
+      &:after 
+         background: url(/img/fig7.svg) no-repeat center center
+         width: 301.5px
+         bottom: -45px
+         right: -3px
+         height: 39.5px
+         position: absolute
+         display: block
+         transform: rotate(3deg)
+         content: ""
+   &__box 
+      display: flex
+      justify-content: space-between
+      align-items: flex-end
+   &__info 
+      width: 100%
+      overflow: hidden
+      max-width: 19.07% 
+      p 
+         color: rgb(4, 19, 37)
+         font-size: 18px
+         font-weight: 400
+         line-height: 130%
+         display: block
+         width: 100%
+         padding-bottom: 20px
+         margin-bottom: 20px
+         padding-left: 30px
+         &:first-child
+            border-bottom: 2px solid rgb(219, 233, 248)
+      div 
+         width: 100%
+         display: flex
+         align-items: center
+         justify-content: center
+         padding: 10px 30px
+         color: rgb(67, 88, 116)
+         font-size: 16px
+         font-weight: 400
+         line-height: 110%
+         border: 2px solid rgb(163, 192, 236)
+         border-radius: 8px
+         background: rgb(219, 233, 248)
+         margin-top: 30.5px
+   &__content 
+      width: 100%
+      max-width: 79.77%
+   &__row 
+      display: flex
+      justify-content: space-between
+   &__item 
+      border: 2px solid rgb(219, 233, 248)
+      border-radius: 20px
+      width: 23.91%
+      overflow: hidden
+   &__block 
+      text-align: center
+      width: 100%
+      padding: 25.5px 30px
+      &:first-child
+         background: rgb(219, 233, 248)
+         span 
+            color: rgb(4, 19, 37)
+            font-size: 24px
+            font-weight: 500
+            line-height: 120%
+            margin-top: 0
+         p 
+            color: rgb(133, 150, 176)
+            font-size: 16px
+            font-weight: 400
+            line-height: 110%
+      &:nth-child(2)
+         border-bottom: 2px solid rgb(219, 233, 248)
+      span 
+         color: rgb(255, 106, 42)
+         font-size: 28px
+         font-weight: 500
+         line-height: 120%
+         display: block
+         margin-top: -8px
+      p 
+         color: rgb(4, 19, 37)
+         font-size: 18px
+         font-weight: 600
+         line-height: 120%
+   &__btn 
+      width: 100%
+      margin-top: 20px
+      height: 56px
+      font-weight: 700
+      font-size: 20px
+   h4 
+      margin: 140px 0 40px
+   &__flex 
+      display: flex
+      justify-content: center
+      div 
+         display: flex
+         align-items: center
+         justify-content: center
+         width: 32.5%
+         border-radius: 20px
+         background: rgb(242, 245, 248)
+         padding: 12px 30px 
+         p 
+            color: rgb(67, 88, 116)
+            font-size: 32px
+            font-weight: 500
+            line-height: 100%
+            margin-left: 20px
+         &:first-child
+            margin-right: 20px
+            p 
+               margin-left: 0
+.footer 
+   margin-bottom: 20px
+   &__wrap 
+      padding: 50px
+      border-radius: 20px
+      background: rgb(242, 245, 248)
+   &__box 
+      align-items: flex-start
+      justify-content: space-between
+   &__content
+      align-items: flex-start
+   &__item 
+      margin-left: 88px
+      p 
+         margin-bottom: 10px
+         color: rgb(4, 19, 37)
+         font-size: 24px
+         font-weight: 500
+         line-height: 120%
+      &:first-child
+         margin-left: 0
+      a 
+         display: block
+         color: rgb(4, 19, 37)
+         font-size: 18px
+         font-weight: 400
+         line-height: 120%
+         margin-bottom: 10px
+         &:hover 
+            color: $or
+   &__up 
+      margin-left: 86px
+      &:hover 
+         .svg 
+            path 
+               fill: $or
+            rect 
+               stroke: $or
+   &__bottom 
+      margin-top: 82px
+      justify-content: space-between
+      p, a 
+         color: rgb(155, 161, 168)
+         font-size: 18px
+         font-weight: 400
+         line-height: 120%
+      a:hover 
+         color: $or

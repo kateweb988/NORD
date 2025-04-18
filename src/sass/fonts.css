@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Heraclito';
+    src: url('/fonts/Heraclito-Medium.eot');
+    src: url('/fonts/Heraclito-Medium.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/Heraclito-Medium.woff2') format('woff2'),
+        url('/fonts/Heraclito-Medium.woff') format('woff'),
+        url('/fonts/Heraclito-Medium.ttf') format('truetype'),
+        url('/fonts/Heraclito-Medium.svg#Heraclito-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Heraclito';
+    src: url('/fonts/Heraclito-Regular.eot');
+    src: url('/fonts/Heraclito-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/Heraclito-Regular.woff2') format('woff2'),
+        url('/fonts/Heraclito-Regular.woff') format('woff'),
+        url('/fonts/Heraclito-Regular.ttf') format('truetype'),
+        url('/fonts/Heraclito-Regular.svg#Heraclito-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Moiamova-1';
+    src: url('/fonts/Moiamova1-Cyrillic.eot');
+    src: url('/fonts/Moiamova1-Cyrillic.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/Moiamova1-Cyrillic.woff2') format('woff2'),
+        url('/fonts/Moiamova1-Cyrillic.woff') format('woff'),
+        url('/fonts/Moiamova1-Cyrillic.ttf') format('truetype'),
+        url('/fonts/Moiamova1-Cyrillic.svg#Moiamova1-Cyrillic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Heraclito';
+    src: url('/fonts/Heraclito-Light.eot');
+    src: url('/fonts/Heraclito-Light.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/Heraclito-Light.woff2') format('woff2'),
+        url('/fonts/Heraclito-Light.woff') format('woff'),
+        url('/fonts/Heraclito-Light.ttf') format('truetype'),
+        url('/fonts/Heraclito-Light.svg#Heraclito-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Heraclito';
+    src: url('/fonts/Heraclito-SemiBold.eot');
+    src: url('/fonts/Heraclito-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/Heraclito-SemiBold.woff2') format('woff2'),
+        url('/fonts/Heraclito-SemiBold.woff') format('woff'),
+        url('/fonts/Heraclito-SemiBold.ttf') format('truetype'),
+        url('/fonts/Heraclito-SemiBold.svg#Heraclito-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Heraclito';
+    src: url('/fonts/Heraclito-Bold.eot');
+    src: url('/fonts/Heraclito-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/Heraclito-Bold.woff2') format('woff2'),
+        url('/fonts/Heraclito-Bold.woff') format('woff'),
+        url('/fonts/Heraclito-Bold.ttf') format('truetype'),
+        url('/fonts/Heraclito-Bold.svg#Heraclito-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
