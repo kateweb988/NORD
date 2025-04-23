@@ -24,6 +24,7 @@
 	<meta property="og:type" content="website">
 	<meta property="og:title" content="">
 	<meta property="og:description" content="">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 
 	<link rel="stylesheet" type="text/css" href="css/main.css">
@@ -64,15 +65,15 @@
 				<div class="nav__info q">
 					<a href="tel:88005500543" class="nav__tel">
 						<img src="img/tel.svg" alt="" class="svg">
-						<p>
+						<span>
 							8 800 550-05-43
-						</p>
+						</span>
 					</a>
 					<a href="mailto:support@nordsoftware.ru" class="nav__mail">
 						<img src="img/mail.svg" alt="" class="svg">
-						<p>
+						<span>
 							support@nordsoftware.ru
-						</p>
+						</span>
 					</a>
 				</div>
 				<a href="#" class="nav__btn btn">
@@ -117,15 +118,15 @@
 						<div class="nav__info q">
 							<a href="tel:88005500543" class="nav__tel">
 								<img src="img/tel.svg" alt="" class="svg">
-								<p>
+								<span>
 									8 800 550-05-43
-								</p>
+								</span>
 							</a>
 							<a href="mailto:support@nordsoftware.ru" class="nav__mail">
 								<img src="img/mail.svg" alt="" class="svg">
-								<p>
+								<span>
 									support@nordsoftware.ru
-								</p>
+								</span>
 							</a>
 							<a href="#" class="nav__btn btn">
 								Задать вопрос
@@ -137,7 +138,7 @@
 			</nav>
 			<div class="container">
 				<div class="header__wrap">
-					<div class="header__content">
+					<div class="header__content" data-aos="fade-right" data-aos-duration="1000">
 						<div class="header__sub">
 							Российская разработка
 						</div>
@@ -151,9 +152,9 @@
 									<span>
 										Автоматизирует документооборот
 									</span>
-									<p>
+									<small>
 										от КП и договора до протоколов и удостоверений
-									</p>
+									</small>
 								</div>
 							</div>
 							<div class="header__item q">
@@ -162,9 +163,9 @@
 									<span>
 										Предоставляет качественные учебные материалы
 									</span>
-									<p>
+									<small>
 										более 180 еженедельно обновляемых курсов по 23 направлениям
-									</p>
+									</small>
 								</div>
 							</div>
 							<div class="header__item q">
@@ -173,9 +174,9 @@
 									<span>
 										Управляет обучением
 									</span>
-									<p>
+									<small>
 										от выдачи доступов в СДО слушателям до выгрузки сведений в ФИС ФРДО
-									</p>
+									</small>
 								</div>
 							</div>
 						</div>
@@ -190,7 +191,8 @@
 					</div>
 					<picture>
 						<source srcset="img/main22.png" media="(max-width: 995px)">
-						<img src="img/main.png" alt="" class="header__pic">
+						<img src="img/main.png" alt="" class="header__pic" data-aos="fade-left" data-aos-duration="1000"
+							data-aos-delay="200">
 					</picture>
 				</div>
 			</div>
@@ -198,7 +200,7 @@
 		<main class="main" id="main">
 			<div class="container">
 				<div class="wrap">
-					<h2>
+					<h2 data-aos="fade-up" data-aos-duration="1200">
 						Первая система управления центром <br> дополнительного образования, <br> работающая в автоматическом
 						режиме
 					</h2>
@@ -206,46 +208,46 @@
 						Используйте <br> инновации
 					</div>
 					<div class="main__row">
-						<div class="main__item">
+						<div class="main__item" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="100">
 							<span>
 								Минимальные издержки
 							</span>
-							<p>
+							<div>
 								за счёт высочайшей степени автоматизации процессов (до 90%)
-							</p>
+							</div>
 							<img src="img/main1.svg" alt="">
 						</div>
-						<div class="main__item">
+						<div class="main__item" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="200">
 							<span>
 								Минимум ошибок <br> в документах
 							</span>
-							<p>
+							<div>
 								за счёт снижения человеческого фактора
-							</p>
+							</div>
 							<img src="img/main2.svg" alt="">
 						</div>
-						<div class="main__item">
+						<div class="main__item" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="300">
 							<span>
 								Решение кадрового вопроса
 							</span>
-							<p>
+							<div>
 								Достаточно 3 сотрудников, чтобы вести 2000 и более новых! договоров в месяц
-							</p>
+							</div>
 							<img src="img/main3.svg" alt="">
 						</div>
-						<div class="main__item">
+						<div class="main__item" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="400">
 							<span>
 								Всё в одном
 							</span>
-							<p>
+							<div>
 								Система Дистанционного Обучения (СДО) в едином программном комплексе
-							</p>
+							</div>
 							<img src="img/main4.svg" alt="">
 						</div>
 					</div>
 					<div class="main__box" id="box">
-						<img src="img/main.svg" alt="">
-						<div class="main__content">
+						<img src="img/main.svg" alt="" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="100">
+						<div class="main__content" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="160">
 							<div class="sub">
 								Автоматизируйте <br> рутину
 							</div>
@@ -254,9 +256,9 @@
 							</h3>
 							<div>
 								<div class="main__el">
-									<p>
+									<div>
 										Обработка входящих заявок
-									</p>
+									</div>
 									<ul>
 										<li>
 											Отправляет коммерческие предложения
@@ -270,9 +272,9 @@
 									</ul>
 								</div>
 								<div class="main__el">
-									<p>
+									<div>
 										Ведение документооборота
-									</p>
+									</div>
 									<ul>
 										<li>
 											Создаёт и рассылает первичные документы
@@ -292,9 +294,9 @@
 									</ul>
 								</div>
 								<div class="main__el">
-									<p>
+									<div>
 										Организация обучения
-									</p>
+									</div>
 									<ul>
 										<li>
 											Обеспечивает связь с преподавателями (кураторами)
@@ -311,18 +313,18 @@
 						<div class="sub">
 							Повышайте <br> эффективность
 						</div>
-						<h3>
+						<h3 data-aos="fade-up" data-aos-duration="1200" data-aos-delay="100">
 							Дополнительные возможности срм-системы Учебный центр
 						</h3>
 						<div class="main__flex">
-							<div class="main__left">
+							<div class="main__left" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="700">
 								<div>
 									<div class="main__right">
 										<img src="img/main2.png" alt="" class="main__img">
 									</div>
-									<p>
+									<span>
 										Управление клиентской базой
-									</p>
+									</span>
 									<ul>
 										<li>
 											Просматривайте все сведения в едином реестре с удобным поиском
@@ -339,9 +341,9 @@
 									<div class="main__right">
 										<img src="img/main2.png" alt="" class="main__img">
 									</div>
-									<p>
+									<span>
 										Библиотека обучающих материалов
-									</p>
+									</span>
 									<ul>
 										<li>
 											Создавайте курсы и программы с разными характеристиками
@@ -358,9 +360,9 @@
 									<div class="main__right">
 										<img src="img/main2.png" alt="" class="main__img">
 									</div>
-									<p>
+									<span>
 										Управление учебным центром
-									</p>
+									</span>
 									<ul>
 										<li>
 											Контролируйте нагрузку сотрудников
@@ -380,9 +382,9 @@
 									<div class="main__right">
 										<img src="img/main2.png" alt="" class="main__img">
 									</div>
-									<p>
+									<span>
 										Маркетинг и реклама
-									</p>
+									</span>
 									<ul>
 										<li>
 											Создавайте регулярные скидки и акции
@@ -391,12 +393,13 @@
 											Выдавайте индивидуальные промокоды
 										</li>
 										<li>
-											Без усилий напоминайте об окончании срока действия свидетельств об окончании обучения
+											Без усилий напоминайте об окончании срока действия свидетельств об окончании
+											обучения
 										</li>
 									</ul>
 								</div>
 							</div>
-							<div class="main__right">
+							<div class="main__right" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="900">
 								<img src="img/main2.png" alt="" class="main__img main__img1">
 								<img src="img/main2.png" alt="" class="main__img main__img2">
 								<img src="img/main2.png" alt="" class="main__img main__img3">
@@ -409,29 +412,29 @@
 		</main>
 		<section class="info" id="info">
 			<div class="container">
-				<h3>
+				<h3 data-aos="fade-up" data-aos-duration="1200" data-aos-delay="100">
 					Возможна интеграция с системами
 				</h3>
 				<div class="info__row">
-					<div class="info__item">
+					<div class="info__item" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="100">
 						<img src="img/info1.svg" alt="">
 					</div>
-					<div class="info__item">
+					<div class="info__item" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="200">
 						<img src="img/info2.svg" alt="">
 					</div>
-					<div class="info__item">
+					<div class="info__item" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="300">
 						<img src="img/info3.svg" alt="">
 					</div>
-					<div class="info__item">
+					<div class="info__item" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="400">
 						<img src="img/info4.svg" alt="">
 					</div>
-					<div class="info__item">
+					<div class="info__item" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="500">
 						<img src="img/info5.svg" alt="">
 					</div>
-					<div class="info__item">
+					<div class="info__item" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="600">
 						<img src="img/info6.svg" alt="">
 					</div>
-					<div class="info__item">
+					<div class="info__item" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="700">
 						<img src="img/info7.svg" alt="">
 					</div>
 				</div>
@@ -439,96 +442,98 @@
 		</section>
 		<section class="order" id="order">
 			<div class="container">
-				<h3>
-					Остались вопросы?
-				</h3>
-				<p class="order__sub">
-					Оставьте заявку, и мы свяжемся с вами в ближайшее время
-				</p>
-				<a href="#" class="order__btn btn">
-					Оставить заявку
-				</a>
-				<img src="img/order.svg" alt="" class="order__pic">
-				<div class="order__wrap">
+				<div data-aos="fade-up" data-aos-duration="1200" data-aos-delay="150">
 					<h3>
+						Остались вопросы?
+					</h3>
+					<span class="order__sub">
+						Оставьте заявку, и мы свяжемся с вами в ближайшее время
+					</span>
+					<a href="#" class="order__btn btn">
+						Оставить заявку
+					</a>
+					<img src="img/order.svg" alt="" class="order__pic">
+				</div>
+				<div class="order__wrap">
+					<h3 data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
 						Пользуйтесь нашими учебными материалами
 					</h3>
 					<div class="sub">
 						Экономьте ресурсы
 					</div>
 					<div class="order__row">
-						<div class="order__el">
+						<div class="order__el" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="100">
 							<img src="img/icon1.svg" alt="">
-							<p>
+							<span>
 								Более 180 программ дополнительного образования по 18 направлениям
-							</p>
+							</span>
 						</div>
-						<div class="order__el">
+						<div class="order__el" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200">
 							<img src="img/icon2.svg" alt="">
-							<p>
+							<span>
 								Использование абсолютно легально, все права защищены
-							</p>
+							</span>
 						</div>
-						<div class="order__el">
+						<div class="order__el" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="300">
 							<img src="img/icon3.svg" alt="">
-							<p>
+							<span>
 								Мы сами следим за их актуальностью и регулярно обновляем
-							</p>
+							</span>
 						</div>
 					</div>
 					<div class="order__flex">
-						<div class="order__item">
+						<div class="order__item" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="0">
 							Жилищно-коммунальное хозяйство (ЖКХ)
 						</div>
-						<div class="order__item">
+						<div class="order__item" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="0">
 							Безопасность дорожного движения (БДД)
 						</div>
-						<div class="order__item">
+						<div class=" order__item" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="0">
 							Гражданская оборона и защита от чрезвычайных ситуаций
 						</div>
-						<div class="order__item">
+						<div class=" order__item" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="0">
 							Управление беспилотными воздушными судами (БПЛА)
 						</div>
-						<div class="order__item">
+						<div class=" order__item" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="0">
 							Антитеррористическая защищённость
 						</div>
-						<div class="order__item">
+						<div class=" order__item" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="0">
 							Тепловые энергоустановки (ТЭУ)
 						</div>
-						<div class="order__item">
+						<div class=" order__item" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="0">
 							Обеспечение доступной среды
 						</div>
-						<div class="order__item">
+						<div class=" order__item" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="0">
 							Промышленная безопасность
 						</div>
-						<div class="order__item">
+						<div class=" order__item" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="0">
 							Транспортная безопасность
 						</div>
-						<div class="order__item">
+						<div class=" order__item" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="0">
 							Противодействие коррупции
 						</div>
-						<div class="order__item">
+						<div class=" order__item" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="0">
 							Оказание первой помощи
 						</div>
-						<div class="order__item">
+						<div class=" order__item" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="0">
 							Экологическая безопасность
 						</div>
-						<div class="order__item">
+						<div class=" order__item" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="0">
 							Радиационная безопасность
 						</div>
-						<div class="order__item">
+						<div class=" order__item" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="0">
 							Охрана труда
 						</div>
-						<div class="order__item">
+						<div class=" order__item" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="0">
 							Обучение в сфере туризма
 						</div>
-						<div class="order__item">
+						<div class=" order__item" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="0">
 							Электробезопасность
 						</div>
-						<div class="order__item">
+						<div class=" order__item" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="0">
 							Обучение в сфере закупок
 						</div>
-						<div class="order__item">
+						<div class=" order__item" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="0">
 							Пожарная безопасность
 						</div>
 					</div>
@@ -538,40 +543,43 @@
 		<section class="van" id="van">
 			<div class="container">
 				<div class="wrap">
-					<h3>
+					<h3 data-aos="fade-up" data-aos-duration="1200" data-aos-delay="100">
 						Наши курсы защищены авторским правом
 					</h3>
 					<div class="sub">
 						Минимизируйте риски
 					</div>
 					<div class="main__row">
-						<div class="main__item">
+						<div class="main__item" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="100">
 							<span>
 								Уникальный контент
 							</span>
-							<p>
-								Каждый курс защищён авторским свидетельством о депонировании IREG, что подтверждает уникальность
+							<div>
+								Каждый курс защищён авторским свидетельством о депонировании IREG, что подтверждает
+								уникальность
 								контента и его новизну
-							</p>
+							</div>
 							<img src="img/main11.svg" alt="">
 						</div>
-						<div class="main__item">
+						<div class="main__item" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
 							<span>
 								Работаем строго по договору
 							</span>
-							<p>
-								Передаём учебные материалы по договору простой (неисключительной) лицензии сроком на 5 лет
-							</p>
+							<div>
+								Передаём учебные материалы по договору простой (неисключительной) лицензии сроком
+								на 5 лет
+							</div>
 							<img src="img/main22.svg" alt="">
 						</div>
-						<div class="main__item">
+						<div class="main__item" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="300">
 							<span>
 								Бесплатное обновление материалов в течение 5 лет
 							</span>
-							<p>
-								В случае изменения законодательства бесплатно актуализируем и направляем вам обновлённые учебные
+							<div>
+								В случае изменения законодательства бесплатно актуализируем и направляем
+								вам обновлённые учебные
 								материалы
-							</p>
+							</div>
 							<img src="img/main33.svg" alt="">
 						</div>
 					</div>
@@ -581,18 +589,18 @@
 		<section class="van our" id="our">
 			<div class="container">
 				<div class="wrap">
-					<h3>
+					<h3 data-aos="fade-up" data-aos-duration="1200" data-aos-delay="100">
 						Почему именно онлайн срм-система
 					</h3>
 					<div class="sub">
 						Цените удобство
 					</div>
 					<div class="our__box">
-						<div class="our__content">
+						<div class="our__content" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200">
 							<div class="our__item">
-								<p>
+								<span>
 									Доступность из любой точки
-								</p>
+								</span>
 								<ul>
 									<li>
 										Удобно работать из любого места с интернетом, что особенно важно для удалённой работы
@@ -600,9 +608,9 @@
 								</ul>
 							</div>
 							<div class="our__item">
-								<p>
+								<span>
 									Автоматические обновления
-								</p>
+								</span>
 								<ul>
 									<li>
 										ПО автоматически обновляется, совершенствуется и адаптируется к законодательству
@@ -610,9 +618,9 @@
 								</ul>
 							</div>
 							<div class="our__item">
-								<p>
+								<span>
 									Масштабируемость и гибкость
-								</p>
+								</span>
 								<ul>
 									<li>
 										Гибкая система оплаты и адаптация под бизнес-нужды обеспечивают предсказуемую прибыль
@@ -621,9 +629,9 @@
 								</ul>
 							</div>
 							<div class="our__item">
-								<p>
+								<span>
 									Снижение затрат на ИТ-инфраструктуру
-								</p>
+								</span>
 								<ul>
 									<li>
 										Отсутствие необходимости в покупке и обслуживании серверов и оборудования.
@@ -634,18 +642,19 @@
 								</ul>
 							</div>
 						</div>
-						<img src="img/our.svg" alt="" class="our__pic">
+						<img src="img/our.svg" alt="" class="our__pic" data-aos="fade-left" data-aos-duration="1200"
+							data-aos-delay="300">
 					</div>
 					<div class="our__area">
-						<h4>
+						<h4 data-aos="fade-up" data-aos-duration="1200" data-aos-delay="100">
 							Надёжная защита данных
 						</h4>
 						<div class="our__box our__box_2">
-							<div class="our__content">
+							<div class="our__content" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
 								<div class="our__item">
-									<p>
+									<span>
 										Централизованное управление
-									</p>
+									</span>
 									<ul>
 										<li>
 											Данные хранятся в защищённом дата-центре, что снижает риск утечек по сравнению
@@ -654,9 +663,9 @@
 									</ul>
 								</div>
 								<div class="our__item">
-									<p>
+									<span>
 										Шифрование
-									</p>
+									</span>
 									<ul>
 										<li>
 											Данные шифруются как при передаче, так и при хранении, что защищает
@@ -673,7 +682,7 @@
 		<section class="crm" id="crm">
 			<div class="container">
 				<div class="crm__wrap">
-					<h3>
+					<h3 data-aos="fade-up" data-aos-duration="1200" data-aos-delay="100">
 						CRM система «Учебный Центр» соответствует требованиям <br> законодательства РФ:
 					</h3>
 					<div class="crm__box">
@@ -681,25 +690,26 @@
 							<source srcset="img/crm44.png" media="(max-width: 995px)">
 							<source srcset="img/crm33.png" media="(max-width: 1280px)">
 							<source srcset="img/crm22.png" media="(max-width: 1450px)">
-							<img src="img/crm.png" alt="" class="crm__pic">
+							<img src="img/crm.png" alt="" class="crm__pic" data-aos="fade-right" data-aos-duration="1200"
+								data-aos-delay="200">
 						</picture>
-						<div class="crm__content">
+						<div class="crm__content" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="300">
 							<div class="crm__flex">
 								<div class="crm__item">
-									<p>
+									<span>
 										Федеральный закон от 29.12.2012 № 273-ФЗ «Об образовании в Российской Федерации»
-									</p>
+									</span>
 								</div>
 								<div class="crm__item">
-									<p>
+									<span>
 										Федеральный закон от 27.07.2006 № 149-ФЗ
 										«Об информации, информационных технологиях и о защите информации»
-									</p>
+									</span>
 								</div>
 								<div class="crm__item">
-									<p>
+									<span>
 										Федеральный закон от 27.07.2006 № 152-ФЗ «О персональных данных»
-									</p>
+									</span>
 								</div>
 							</div>
 							<div class="crm__item crm__item_last">
@@ -744,63 +754,63 @@
 		</section>
 		<section class="stage" id="stage">
 			<div class="container">
-				<h3>
+				<h3 data-aos="fade-up" data-aos-duration="1200" data-aos-delay="100">
 					Этапы внедрения системы
 				</h3>
 				<div class="stage__row">
-					<div class="stage__item">
+					<div class="stage__item" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="100">
 						<h4>
 							Заявка
 						</h4>
-						<p>
+						<small>
 							По телефону +7 901 234-25-67, электронной почте, форме обратной связи на сайте
-						</p>
+						</small>
 						<span>
 							01
 						</span>
 					</div>
-					<div class="stage__item">
+					<div class="stage__item" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200">
 						<h4>
 							Обсуждение деталей
 						</h4>
-						<p>
+						<small>
 							Функционал, потребность в учебных материалах, доменное имя, необходимость интеграции с программным
 							обеспечением заказчика и сторонними сервисами и др
-						</p>
+						</small>
 						<span>
 							02
 						</span>
 					</div>
-					<div class="stage__item">
+					<div class="stage__item" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="300">
 						<h4>
 							Договор/Оплата
 						</h4>
-						<p>
+						<small>
 							Договор с указанием стоимости, сроков и условий оплаты
-						</p>
+						</small>
 						<span>
 							03
 						</span>
 					</div>
-					<div class="stage__item">
+					<div class="stage__item" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="400">
 						<h4>
 							Настройка системы
 						</h4>
-						<p>
+						<small>
 							Конфигурация, роли и доступы для работников, документооборот и др. Производится совместно
 							с заказчиком. Срок 2–3 дня
-						</p>
+						</small>
 						<span>
 							04
 						</span>
 					</div>
-					<div class="stage__item">
+					<div class="stage__item" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="500">
 						<h4>
 							Интеграция с другими сервисами при необходимости
 						</h4>
-						<p>
+						<small>
 							ФИС ФРДО, 1С Бухгалтерия, Эквайринг, Службы доставки и др. Сроки по согласованию.
-						</p>
+						</small>
 						<span>
 							05
 						</span>
@@ -814,17 +824,17 @@
 					<div class="sub">
 						Платите по факту
 					</div>
-					<h3>
+					<h3 data-aos="fade-up" data-aos-duration="1200" data-aos-delay="100">
 						Тарифы
 					</h3>
-					<div class="tarrifs__box">
+					<div class="tarrifs__box" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
 						<div class="tarrifs__info">
-							<p>
+							<span>
 								СРМ + СДО
-							</p>
-							<p>
+							</span>
+							<span>
 								с предоставлением учебных материалов
-							</p>
+							</span>
 							<div>
 								Стоимость дополнительных интеграций обсуждается отдельно
 							</div>
@@ -836,25 +846,25 @@
 										<span>
 											до 200
 										</span>
-										<p>
+										<small>
 											слушателей в месяц
-										</p>
+										</small>
 									</div>
 									<div class="tarrifs__block">
 										<span>
 											9900
 										</span>
-										<p>
+										<small>
 											руб./в месяц
-										</p>
+										</small>
 									</div>
 									<div class="tarrifs__block">
 										<span>
 											+1900
 										</span>
-										<p>
+										<small>
 											руб./в месяц
-										</p>
+										</small>
 									</div>
 								</div>
 								<div class="tarrifs__item">
@@ -862,25 +872,25 @@
 										<span>
 											от 200 до 2000
 										</span>
-										<p>
+										<small>
 											слушателей в месяц
-										</p>
+										</small>
 									</div>
 									<div class="tarrifs__block">
 										<span>
 											49
 										</span>
-										<p>
+										<small>
 											руб.за слушателя
-										</p>
+										</small>
 									</div>
 									<div class="tarrifs__block">
 										<span>
 											+9
 										</span>
-										<p>
+										<small>
 											руб. за слушателя
-										</p>
+										</small>
 									</div>
 								</div>
 								<div class="tarrifs__item">
@@ -888,25 +898,25 @@
 										<span>
 											от 2000 до 4000
 										</span>
-										<p>
+										<small>
 											слушателей в месяц
-										</p>
+										</small>
 									</div>
 									<div class="tarrifs__block">
 										<span>
 											39
 										</span>
-										<p>
+										<small>
 											руб.за слушателя
-										</p>
+										</small>
 									</div>
 									<div class="tarrifs__block">
 										<span>
 											+8
 										</span>
-										<p>
+										<small>
 											руб.за слушателя
-										</p>
+										</small>
 									</div>
 								</div>
 								<div class="tarrifs__item">
@@ -914,25 +924,25 @@
 										<span>
 											от 4000
 										</span>
-										<p>
+										<small>
 											руб.за слушателя
-										</p>
+										</small>
 									</div>
 									<div class="tarrifs__block">
 										<span>
 											29
 										</span>
-										<p>
+										<small>
 											руб.за слушателя
-										</p>
+										</small>
 									</div>
 									<div class="tarrifs__block">
 										<span>
 											+7
 										</span>
-										<p>
+										<small>
 											руб.за слушателя
-										</p>
+										</small>
 									</div>
 								</div>
 							</div>
@@ -941,21 +951,21 @@
 							</a>
 						</div>
 					</div>
-					<h4>
+					<h4 data-aos="fade-up" data-aos-duration="1200" data-aos-delay="100">
 						Система используется ведущими учебными центрами, среди которых
 					</h4>
-					<div class="tarrifs__flex">
+					<div class="tarrifs__flex" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="100">
 						<div>
 							<img src="img/tar1.png" alt="">
-							<p>
+							<span>
 								Академия Безопасности
-							</p>
+							</span>
 						</div>
 						<div>
 							<img src="img/tar2.png" alt="">
-							<p>
+							<span>
 								Учебный центр ПРОПБ
-							</p>
+							</span>
 						</div>
 					</div>
 				</div>
@@ -968,9 +978,9 @@
 						<img src="img/footer-logo.svg" alt="" class="footer__logo">
 						<div class="footer__content q">
 							<div class="footer__item">
-								<p>
+								<span>
 									Продукт
-								</p>
+								</span>
 								<ul>
 									<li>
 										<a href="#">
@@ -990,9 +1000,9 @@
 								</ul>
 							</div>
 							<div class="footer__item">
-								<p>
+								<span>
 									Компания
-								</p>
+								</span>
 								<ul>
 									<li>
 										<a href="#">
@@ -1012,9 +1022,9 @@
 								</ul>
 							</div>
 							<div class="footer__item">
-								<p>
+								<span>
 									Контакты
-								</p>
+								</span>
 								<a href="tel:88005500543">
 									8 800 550-05-43
 								</a>
@@ -1031,23 +1041,32 @@
 						</div>
 					</div>
 					<div class="footer__bottom q">
-						<p>
+						<span>
 							ООО «НордСофт»
-						</p>
+						</span>
 						<a href="#" target="_blank">
 							Политика конфиденциальности
 						</a>
-						<p>
+						<span>
 							2025
-						</p>
+						</span>
 					</div>
 				</div>
 			</div>
 		</footer>
 	</div>
+
 	<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js?ver=5.1"></script>
 	<script src="js/all.js"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init();
+		// если подгружаешь блоки позже (например, ajax/vue/react)
+		setTimeout(() => {
+			AOS.refresh(); // пересканировать DOM
+		}, 500);
+	</script>
 </body>
 
 </html>

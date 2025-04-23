@@ -50,13 +50,13 @@ $(document).ready(function () {
 
   // Активируем первую секцию по умолчанию
   $('.main__left div:first-child ul').show();
-  $('.main__left div:first-child p').addClass('active');
+  $('.main__left div:first-child span').addClass('active');
   $('.main__img1').show();
 
   // Обработчик клика
-  $('.main__left div p').click(function () {
+  $('.main__left div span').click(function () {
     var $this = $(this);
-    var $clickedIndex = $('.main__left div p').index(this);
+    var $clickedIndex = $('.main__left div span').index(this);
 
     // Скрываем все ul кроме текущего
     $('.main__left div ul').not($this.next('ul')).slideUp();
@@ -71,7 +71,7 @@ $(document).ready(function () {
     $('.main__img' + ($clickedIndex + 1)).show();
 
     // Обновляем классы активности
-    $('.main__left div p').removeClass('active');
+    $('.main__left div span').removeClass('active');
     $this.addClass('active');
   });
 });
